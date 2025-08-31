@@ -5,7 +5,7 @@
 @theme {
   --color-bacground: #f7f7f7;
   --color-primary: #042045;
-  --color-secondary: #ffbf00;
+  --color-secondary: #dbaa61;
   --color-third: #d92124;
   --color-extra: #e9e9e9;
   --color-overlay: rgba(10, 26, 47, 0.5);
@@ -28,7 +28,7 @@
   }
 
   p {
-    @apply font-fontTwo tracking-wider text-textColorThick text-xs md:text-lg font-extralight;
+    @apply font-fontTwo tracking-wider text-textColorThick text-xs md:text-lg font-light;
   }
 
   nav {
@@ -54,11 +54,11 @@
 
   .sub_hero {
     @apply bg-cover bg-no-repeat
-    bg-gray-800 h-[70vh] p-0;
+    bg-gray-800 h-[50vh] lg:h-[70vh] p-0;
   }
 
   .sub_hero-container {
-    @apply h-full w-full flex flex-col justify-center align-middle items-center bg-overlay;
+    @apply h-full w-full flex flex-col justify-center align-middle items-center bg-[#042045cc];
   }
 
   .sub_hero-heading {
