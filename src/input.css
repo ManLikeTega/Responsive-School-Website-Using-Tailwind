@@ -52,6 +52,23 @@
     @apply px-5 lg:px-[3rem];
   }
 
+  .sub_hero {
+    @apply bg-cover bg-no-repeat
+    bg-gray-800 h-[70vh] p-0;
+  }
+
+  .sub_hero-container {
+    @apply h-full w-full flex flex-col justify-center align-middle items-center bg-overlay;
+  }
+
+  .sub_hero-heading {
+    @apply text-3xl md:text-6xl text-extra font-fontOne font-normal text-center;
+  }
+
+  .sub_hero-sub_heading {
+    @apply text-sm md:text-lg text-extra font-fontTwo text-center mt-5;
+  }
+
   .section-heading {
     @apply text-third uppercase text-sm font-fontTwo;
   }
