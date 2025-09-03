@@ -44,7 +44,7 @@
             <div class="hidden lg:flex space-x-2">
               <a href="#" class="nav_links">Home</a>
 
-              <a href="#about" class="nav_links">About Us</a>
+              <a href="#about" class="nav_links">About</a>
 
               <a href="./academics.html" class="nav_links">Academics</a>
 
@@ -82,9 +82,7 @@
         <div id="menu" class="hidden lg:hidden px-4 pb-3 space-y-2 bg-primary">
           <a href="#" class="block py-2 hover:text-secondary">Home</a>
 
-          <a href="about.html" class="block py-2 hover:text-secondary"
-            >About Us</a
-          >
+          <a href="about.html" class="block py-2 hover:text-secondary">About</a>
 
           <a href="./academics.html" class="block py-2 hover:text-secondary"
             >Academics</a
@@ -296,7 +294,12 @@
               class="col-span-12 md:col-span-3 py-10 px-5 bg-overlay text-center"
             >
               <span class="text-secondary text-4xl font-fontTwo mb-2">
-                <span class="text-secondary">98</span>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="98"
+                  class="purecounter text-secondary"
+                  >98</span
+                >
                 %
               </span>
 
@@ -316,7 +319,12 @@
               class="col-span-12 md:col-span-3 py-10 px-5 bg-overlay text-center"
             >
               <span class="text-secondary text-4xl font-fontTwo mb-2">
-                <span class="text-secondary">100</span>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="100"
+                  class="purecounter text-secondary"
+                  >100</span
+                >
                 %
               </span>
 
@@ -327,7 +335,12 @@
               class="col-span-12 md:col-span-3 py-10 px-5 bg-overlay text-center"
             >
               <span class="text-secondary text-4xl font-fontTwo mb-2">
-                <span class="text-secondary">1000</span>
+                <span
+                  data-purecounter-start="100"
+                  data-purecounter-end="1000"
+                  class="purecounter text-secondary"
+                  >1000</span
+                >
                 +
               </span>
 
@@ -1164,6 +1177,11 @@
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
 
     <script>
       $(".owl-carousel").owlCarousel({

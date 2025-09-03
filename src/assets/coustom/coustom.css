@@ -1,3 +1,7 @@
+body {
+  user-select: none;
+}
+
 @media only screen and (min-width: 1022px) {
   .nav_links::before {
     content: "";
@@ -55,4 +59,17 @@
   width: 20%;
   transition-duration: 0.3s;
   background-color: #cccccc33;
+}
+
+.graph_item::before {
+  content: "";
+  position: absolute;
+  /* top: 35%;
+  transform: translateY(-65%); */
+  top: 0;
+  left: -5.5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
 }
