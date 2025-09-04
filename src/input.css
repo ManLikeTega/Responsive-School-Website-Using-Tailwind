@@ -28,7 +28,7 @@
   }
 
   p {
-    @apply font-fontTwo tracking-wider text-textColorThick text-xs md:text-lg font-light;
+    @apply font-fontTwo tracking-wider text-textColorThick text-xs md:text-lg font-light leading-5 md:leading-normal;
   }
 
   nav {
@@ -66,7 +66,7 @@
   }
 
   .sub_hero-sub_heading {
-    @apply text-sm md:text-lg text-extra font-fontTwo text-center mt-5;
+    @apply text-sm md:text-lg  text-extra font-fontTwo text-center mt-5;
   }
 
   .section-heading {
@@ -74,7 +74,7 @@
   }
 
   .section-sub_heading {
-    @apply text-2xl md:text-5xl my-5;
+    @apply text-2xl md:text-5xl my-5 capitalize;
   }
 
   .card {
@@ -83,6 +83,14 @@
 
   .icon {
     @apply text-third;
+  }
+
+  .staff_card {
+    @apply rounded overflow-hidden;
+  }
+
+  .staff_card img {
+    @apply h-[350px] object-top;
   }
 
   .footer_icon {
