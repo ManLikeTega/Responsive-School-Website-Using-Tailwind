@@ -39,11 +39,11 @@
 
               <a href="./academics.html" class="nav_links">Academics</a>
 
-              <a href="./academics.html" class="nav_links">Admissions</a>
+              <a href="./admission.html" class="nav_links">Admissions</a>
 
               <a href="#" class="nav_links">News & Events</a>
 
-              <a href="#" class="nav_links">Gallery</a>
+              <a href="./gallery.html" class="nav_links">Gallery</a>
 
               <a href="#" class="nav_links">Contact Us</a>
             </div>
@@ -87,7 +87,9 @@
 
           <a href="#" class="block py-2 hover:text-secondary">News & Events</a>
 
-          <a href="#" class="block py-2 hover:text-secondary">Gallery</a>
+          <a href="./gallery.html" class="block py-2 hover:text-secondary"
+            >Gallery</a
+          >
 
           <a href="#" class="block py-2 hover:text-secondary">Contact Us</a>
         </div>
@@ -183,7 +185,13 @@
             </p>
           </div>
 
-          <div></div>
+          <div class="h-full w-full rounded overflow-hidden">
+            <img
+              class="bg-gray-800 h-full w-full object-cover"
+              src="./assets/imgs/history.png"
+              alt=""
+            />
+          </div>
         </div>
       </section>
 
@@ -294,11 +302,69 @@
           <div
             class="flex flex-col gap-5 justify-center mt-10 md:grid md:grid-cols-2 lg:grid-cols-3"
           >
-            <div class="card col-span-1"></div>
+            <div class="card col-span-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="text-secondary flex items-center w-full h-15 mb-5"
+              >
+                <path
+                  d="M13 21V23.5L10 21.5L7 23.5V21H6.5C4.567 21 3 19.433 3 17.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V20C21 20.5523 20.5523 21 20 21H13ZM13 19H19V16H6.5C5.67157 16 5 16.6716 5 17.5C5 18.3284 5.67157 19 6.5 19H7V17H13V19ZM19 14V4H6V14.0354C6.1633 14.0121 6.33024 14 6.5 14H19ZM7 5H9V7H7V5ZM7 8H9V10H7V8ZM7 11H9V13H7V11Z"
+                ></path>
+              </svg>
 
-            <div class="card col-span-1"></div>
+              <h5 class="capitalize mb-3 text-xl font-fontTwo">our vision</h5>
 
-            <div class="card col-span-1"></div>
+              <p>
+                To be a leading school recognized for excellence, character, and
+                innovation
+              </p>
+            </div>
+
+            <div class="card col-span-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="text-secondary flex items-center w-full h-15 mb-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z"
+                />
+              </svg>
+
+              <h5 class="capitalize mb-3 text-xl font-fontTwo">our mission</h5>
+
+              <p>
+                To provide quality education that builds knowledge, discipline,
+                and lifelong values.
+              </p>
+            </div>
+
+            <div class="card col-span-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="text-secondary flex items-center w-full h-15 mb-5"
+              >
+                <path
+                  d="M9 17C9 17 16 18 19 21H20C20.5523 21 21 20.5523 21 20V13.937C21.8626 13.715 22.5 12.9319 22.5 12C22.5 11.0681 21.8626 10.285 21 10.063V4C21 3.44772 20.5523 3 20 3H19C16 6 9 7 9 7H5C3.89543 7 3 7.89543 3 9V15C3 16.1046 3.89543 17 5 17H6L7 22H9V17ZM11 8.6612C11.6833 8.5146 12.5275 8.31193 13.4393 8.04373C15.1175 7.55014 17.25 6.77262 19 5.57458V18.4254C17.25 17.2274 15.1175 16.4499 13.4393 15.9563C12.5275 15.6881 11.6833 15.4854 11 15.3388V8.6612ZM5 9H9V15H5V9Z"
+                ></path>
+              </svg>
+
+              <h5 class="capitalize mb-3 text-xl font-fontTwo">our motto</h5>
+
+              <p>
+                Through knowledge, discipline, and excellence, we shape students
+                with integrity, innovation, and lifelong learning
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -306,9 +372,9 @@
       <!-- Core Values Section -->
       <section class="my-10 lg:my-[7rem]">
         <div>
-          <h6 class="section-heading">Our Core Values</h6>
+          <h6 class="section-heading md:text-center">Our Core Values</h6>
 
-          <h2 class="section-sub_heading">
+          <h2 class="section-sub_heading md:text-center lg:text-center">
             Shaping character, inspiring excellence
           </h2>
 
@@ -428,10 +494,7 @@
       </section>
 
       <!-- Principal's Welcome Message Section -->
-      <section
-        id="principalMessage"
-        class="bg-extra py-10 lg:py-[7rem] scroll-mt-20"
-      >
+      <section id="principalMessage" class="bg-extra py-10 lg:py-[7rem]">
         <div
           class="flex flex-col gap-10 lg:gap-5 items-center lg:grid lg:grid-cols-2"
         >
@@ -534,364 +597,447 @@
         </div>
       </section>
 
-      <section id="staff" class="bg-extra py-10 lg:py-[7rem] scroll-mt-20">
-        <div>
-          <h6 class="section-heading">Our Dedicated Staff</h6>
+      <!-- Staff Section -->
+      <section id="staff" class="bg-extra py-10 lg:py-[7rem]">
+        <div class="w-full">
+          <h6 class="section-heading md:text-center">Our Staff</h6>
 
-          <h2 class="section-sub_heading">Meet Our Dedicated Staff</h2>
+          <h2 class="section-sub_heading md:text-center">
+            Good Education Starts From Great Teachers
+          </h2>
 
           <div
-            class="flex flex-col w-full justify-center items-center gap-5 lg:flex-row"
+            class="staff_section hidden relative lg:flex lg:gap-5 lg:items-start justify-center lg:flex-row"
           >
-            <div class="flex flex-col-reverse gap-5 lg:flex-row">
-              <div
-                class="staff_card hidden lg:block lg:w-[20rem] lg:mt-[100px]"
-              >
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+            <div class="staff_card mt-[100px]">
+              <img class="object-cover" src="./assets/imgs/vice_1.jpg" alt="" />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
-
-              <div class="staff_card lg:w-[20rem]">
-                <img
-                  class="object-cover"
-                  src="https://media.istockphoto.com/id/2213659286/photo/portrait-of-a-smiling-businessman-standing-with-arms-crossed-in-front-of-office-building.jpg?s=1024x1024&w=is&k=20&c=nrAwruqkVtJ7R0h2pH7QgIs1DMPAMAPmYqrONzNtOUw="
-                  alt=""
-                />
-
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
+              <h6 class="staff_name">Mr. Samuel Adeyemi</h6>
+              <p class="staff_title">Vice Principal (Academics)</p>
             </div>
 
-            <div class="flex flex-col gap-5 md:grid md:grid-cols-2 lg:block">
-              <div class="staff_card w-full lg:hidden">
+            <div class="staff_card">
+              <img
+                class="object-cover"
+                src="./assets/imgs/principal.jpg"
+                alt=""
+              />
+
+              <h6 class="staff_name">Mr. David Johnson</h6>
+              <p class="staff_title">Principal</p>
+            </div>
+
+            <div class="staff_card mt-[100px]">
+              <img class="object-cover" src="./assets/imgs/vice-2.jpg" alt="" />
+
+              <h6 class="staff_name">Mr. Samuel Adeyemi</h6>
+              <p class="staff_title">Vice Principal (Academics)</p>
+            </div>
+          </div>
+
+          <div
+            class="staff_section flex flex-col items-center justify-center lg:hidden"
+          >
+            <div class="staff_card md:w-[500px] lg:w-full">
+              <img
+                class="object-cover"
+                src="./assets/imgs/principal.jpg"
+                alt=""
+              />
+
+              <h6 class="staff_name">Mr. David Johnson</h6>
+              <p class="staff_title">Principal</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-5">
+              <div class="staff_card">
                 <img
                   class="object-cover"
-                  src="./assets/imgs/student_1.webp"
+                  src="./assets/imgs/vice_1.jpg"
                   alt=""
                 />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                <h6 class="staff_name">Mr. Samuel Adeyemi</h6>
+                <p class="staff_title">Vice Principal (Academics)</p>
               </div>
 
-              <div class="staff_card w-full lg:w-[20rem] lg:mt-[100px]">
+              <div class="staff_card">
                 <img
                   class="object-cover"
-                  src="./assets/imgs/student_1.webp"
+                  src="./assets/imgs/vice-2.jpg"
                   alt=""
                 />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                <h6 class="staff_name">Mr. Samuel Adeyemi</h6>
+                <p class="staff_title">Vice Principal (Academics)</p>
               </div>
             </div>
           </div>
 
-          <div>
-            <h3>administrative</h3>
+          <div class="staff_section w-full">
+            <h3>Science Department</h3>
 
-            <div class="flex flex-col gap-5 lg:grid lg:grid-cols-3">
-              <div class="staff_card w-full col-span-1">
-                <img
-                  class="object-cover w-full"
-                  src="https://media.istockphoto.com/id/2157036490/photo/businessman-adult-portrait-occupation-concept.jpg?s=1024x1024&w=is&k=20&c=l0WD38SshTQzfpIQBvGMwcyGBMg2ajUhZ4KHB7WnMfA="
-                  alt=""
-                />
+            <div
+              class="flex flex-col gap-5 sm:items-center md:items-stretch md:grid md:grid-cols-3 lg:grid-cols-4"
+            >
+              <div class="md:col-span-1">
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/head_science.jpg"
+                    alt=""
+                  />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Dr. Chinedu Obi</h6>
+                  <p class="staff_title">Head of Science Department</p>
+                </div>
               </div>
 
               <div
-                class="col-span-2 flex flex-col w-full gap-5 md:grid md:grid-cols-3"
-              >
-                <div class="staff_card">
-                  <img
-                    class="object-cover"
-                    src="./assets/imgs/student_1.webp"
-                    alt=""
-                  />
-
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
-                </div>
-
-                <div class="staff_card">
-                  <img
-                    class="object-cover"
-                    src="./assets/imgs/student_1.webp"
-                    alt=""
-                  />
-
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
-                </div>
-
-                <div class="staff_card">
-                  <img
-                    class="object-cover"
-                    src="./assets/imgs/student_1.webp"
-                    alt=""
-                  />
-
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
-                </div>
-
-                <div class="staff_card">
-                  <img
-                    class="object-cover"
-                    src="./assets/imgs/student_1.webp"
-                    alt=""
-                  />
-
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
-                </div>
-
-                <div class="staff_card">
-                  <img
-                    class="object-cover"
-                    src="./assets/imgs/student_1.webp"
-                    alt=""
-                  />
-
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h3>administrative</h3>
-
-            <div class="flex flex-col gap-5 lg:grid lg:grid-cols-3">
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
-
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
-
-              <div
-                class="col-span-2 flex flex-col gap-5 lg:grid lg:grid-cols-3 w-full"
+                class="md:col-span-2 lg:col-span-3 flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3"
               >
                 <div class="staff_card">
                   <img
                     class="object-cover"
-                    src="./assets/imgs/student_1.webp"
+                    src="./assets/imgs/teacher_6.jpg"
                     alt=""
                   />
 
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Mr. James Anderson</h6>
                 </div>
 
                 <div class="staff_card">
                   <img
                     class="object-cover"
-                    src="./assets/imgs/student_1.webp"
+                    src="./assets/imgs/teacher_1.jpg"
                     alt=""
                   />
 
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Mrs. Stella Adams</h6>
                 </div>
 
                 <div class="staff_card">
                   <img
                     class="object-cover"
-                    src="./assets/imgs/student_1.webp"
+                    src="./assets/imgs/teacher_9.jpg"
                     alt=""
                   />
 
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Mr. Peter Musa</h6>
                 </div>
 
                 <div class="staff_card">
                   <img
                     class="object-cover"
-                    src="./assets/imgs/student_1.webp"
+                    src="./assets/imgs/teacher_4.jpg"
                     alt=""
                   />
 
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Dr. Richard Green</h6>
                 </div>
 
                 <div class="staff_card">
                   <img
                     class="object-cover"
-                    src="./assets/imgs/student_1.webp"
+                    src="./assets/imgs/teacher_3.jpg"
                     alt=""
                   />
 
-                  <h6 class="Staff_name">Dr. Akin</h6>
-                  <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Miss Linda Zhang</h6>
+                </div>
+
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_2.jpg"
+                    alt=""
+                  />
+
+                  <h6 class="staff_name">Mrs. Amina Yusuf</h6>
+                </div>
+
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/coach.jpg"
+                    alt=""
+                  />
+
+                  <h6 class="staff_name">Coach Victor Ibrahim</h6>
                 </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <h3>adlgddj</h3>
+          <div class="staff_section w-full">
+            <h3>art Department</h3>
 
-            <div class="flex flex-col gap-5 lg:grid lg:grid-cols-4">
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+            <div
+              class="flex flex-col gap-5 sm:items-center md:items-stretch md:grid md:grid-cols-3 lg:grid-cols-4"
+            >
+              <div class="md:col-span-1">
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/head_art.jpg"
+                    alt=""
+                  />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Mrs. Blessing Eze</h6>
+                  <p class="staff_title">Head of Arts Department</p>
+                </div>
               </div>
 
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+              <div
+                class="md:col-span-2 lg:col-span-3 flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3"
+              >
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_8.jpg"
+                    alt=""
+                  />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
+                  <h6 class="staff_name">Mrs. Aderonke Adeola</h6>
+                </div>
 
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_7.jpg"
+                    alt=""
+                  />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
+                  <h6 class="staff_name">Mrs. Ngozi Nwafor</h6>
+                </div>
 
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_11.jpg"
+                    alt=""
+                  />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
-            </div>
-          </div>
+                  <h6 class="staff_name">Mr. Apkan Godwin</h6>
+                </div>
 
-          <div>
-            <h3>adlgddj</h3>
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_10.jpg"
+                    alt=""
+                  />
 
-            <div class="flex flex-col gap-5 lg:grid lg:grid-cols-4">
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+                  <h6 class="staff_name">Mrs. Adeleke Deborah</h6>
+                </div>
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_12.jpg"
+                    alt=""
+                  />
 
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+                  <h6 class="staff_name">Mrs. Adebisi Ola</h6>
+                </div>
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_13.jpg"
+                    alt=""
+                  />
 
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
+                  <h6 class="staff_name">miss. Emma Jones</h6>
+                </div>
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
-              </div>
+                <div class="staff_card">
+                  <img
+                    class="object-cover"
+                    src="./assets/imgs/teacher_14.jpg"
+                    alt=""
+                  />
 
-              <div class="staff_card col-span-1">
-                <img
-                  class="object-cover"
-                  src="./assets/imgs/student_1.webp"
-                  alt=""
-                />
-
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                  <h6 class="staff_name">Mrs. Claire Dubois</h6>
+                </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <h3>adlgddj</h3>
+          <div class="staff_section">
+            <h3>Administrative Staff</h3>
 
-            <div class="flex flex-col gap-5 lg:grid md:grid-cols-4">
+            <div
+              class="flex flex-col gap-5 sm:items-center md:items-stretch md:grid md:grid-cols-3 lg:grid-cols-4"
+            >
               <div class="staff_card col-span-1">
                 <img
                   class="object-cover"
-                  src="./assets/imgs/student_1.webp"
+                  src="./assets/imgs/administrative_1.jpg"
                   alt=""
                 />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                <h6 class="staff_name">Mrs. Janet Bello</h6>
+                <p class="staff_title">School Registrar</p>
               </div>
 
               <div class="staff_card col-span-1">
                 <img
                   class="object-cover"
-                  src="./assets/imgs/student_1.webp"
+                  src="./assets/imgs/administrative_6.jpg"
                   alt=""
                 />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                <h6 class="staff_name">Mr. Michael Owolabi</h6>
+                <p class="staff_title">Bursar (Finance)</p>
               </div>
 
               <div class="staff_card col-span-1">
                 <img
                   class="object-cover"
-                  src="./assets/imgs/student_1.webp"
+                  src="./assets/imgs/administrative_2.jpg"
                   alt=""
                 />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                <h6 class="staff_name">Miss Clara Johnson</h6>
+                <p class="staff_title">Admissions Officer</p>
               </div>
 
               <div class="staff_card col-span-1">
                 <img
                   class="object-cover"
-                  src="./assets/imgs/student_1.webp"
+                  src="./assets/imgs/administrative_4.jpg"
                   alt=""
                 />
 
-                <h6 class="Staff_name">Dr. Akin</h6>
-                <p class="staff_title">Principal</p>
+                <h6 class="staff_name">Mrs. Ruth Adeola</h6>
+                <p class="staff_title">Secretary</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/administrative_5.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mr. Francis Mensah</h6>
+                <p class="staff_title">Librarian</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/administrative_3.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mr. Kelvin White</h6>
+                <p class="staff_title">ICT Support Officer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="staff_section">
+            <h3>Student Support Staff</h3>
+
+            <div
+              class="flex flex-col gap-5 sm:items-center md:items-stretch md:grid md:grid-cols-3 lg:grid-cols-4"
+            >
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/councelor.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mrs. Patricia Okonkwo</h6>
+                <p class="staff_title">Guidance & Counsellor</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/nurse.png"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Nurse Elizabeth Brown</h6>
+                <p class="staff_title">School Nurse</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/hostel-master.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mr. Emmanuel George</h6>
+                <p class="staff_title">Boarding House Master</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/hostel-mistress.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mrs. Ifeoma Nwachukwu</h6>
+                <p class="staff_title">Boarding House Mistress</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="staff_section mb-0">
+            <h3>Non-Teaching Staff</h3>
+
+            <div
+              class="flex flex-col gap-5 sm:items-center md:items-stretch md:grid md:grid-cols-3 lg:grid-cols-4"
+            >
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/security.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mr. Joseph Ajayi</h6>
+                <p class="staff_title">Head of Security</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/cleaner.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mrs. Mary Ann</h6>
+                <p class="staff_title">Head of Cleaners</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/cafetaria.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mr. Anosi Caesar</h6>
+                <p class="staff_title">Cafeteria Manage</p>
+              </div>
+
+              <div class="staff_card col-span-1">
+                <img
+                  class="object-cover"
+                  src="./assets/imgs/driver.jpg"
+                  alt=""
+                />
+
+                <h6 class="staff_name">Mr. Musa Bello</h6>
+                <p class="staff_title">Driver/Transport Officer</p>
               </div>
             </div>
           </div>
@@ -1006,7 +1152,7 @@
                   ></path>
                 </svg>
 
-                <a class="footer_link" href="#">About</a>
+                <a class="footer_link" href="#">About Us</a>
               </li>
 
               <li
