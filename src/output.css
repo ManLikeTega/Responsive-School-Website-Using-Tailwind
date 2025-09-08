@@ -235,6 +235,9 @@
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
   }
+  .my-3 {
+    margin-block: calc(var(--spacing) * 3);
+  }
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
   }
@@ -325,6 +328,12 @@
   .h-\[25px\] {
     height: 25px;
   }
+  .h-\[50px\] {
+    height: 50px;
+  }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[100vh\] {
     height: 100vh;
   }
@@ -355,6 +364,12 @@
   .w-\[25px\] {
     width: 25px;
   }
+  .w-\[50px\] {
+    width: 50px;
+  }
+  .w-\[100px\] {
+    width: 100px;
+  }
   .w-full {
     width: 100%;
   }
@@ -380,6 +395,12 @@
   }
   .scroll-mt-40 {
     scroll-margin-top: calc(var(--spacing) * 40);
+  }
+  .list-inside {
+    list-style-position: inside;
+  }
+  .list-disc {
+    list-style-type: disc;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -428,6 +449,13 @@
       --tw-space-y-reverse: 0;
       margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .space-y-10 {
+    :where(& > :not(:last-child)) {
+      --tw-space-y-reverse: 0;
+      margin-block-start: calc(calc(var(--spacing) * 10) * var(--tw-space-y-reverse));
+      margin-block-end: calc(calc(var(--spacing) * 10) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
   .space-x-2 {
@@ -512,11 +540,23 @@
   .bg-\[url\(\'https\:\/\/media\.istockphoto\.com\/id\/904531434\/photo\/portrait-of-five-multi-racial-school-children-sitting-at-desks-in-clasroom\.jpg\?s\=1024x1024\&w\=is\&k\=20\&c\=cX2zVpxpwFqjo50Gofpo0lFwq5pWl-IA5LWFRE0Y3hM\=\'\)\] {
     background-image: url('https://media.istockphoto.com/id/904531434/photo/portrait-of-five-multi-racial-school-children-sitting-at-desks-in-clasroom.jpg?s=1024x1024&w=is&k=20&c=cX2zVpxpwFqjo50Gofpo0lFwq5pWl-IA5LWFRE0Y3hM=');
   }
+  .bg-\[url\(\.\/assets\/imgs\/\)\] {
+    background-image: url(./assets/imgs/);
+  }
+  .bg-\[url\(\.\/assets\/imgs\/academics\.png\)\] {
+    background-image: url(./assets/imgs/academics.png);
+  }
   .bg-\[url\(\.\/assets\/imgs\/sub_image\.webp\)\] {
     background-image: url(./assets/imgs/sub_image.webp);
   }
   .bg-cover {
     background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-top {
+    background-position: top;
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
@@ -571,6 +611,9 @@
   }
   .text-left {
     text-align: left;
+  }
+  .text-start {
+    text-align: start;
   }
   .align-middle {
     vertical-align: middle;
@@ -776,6 +819,11 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
+  .md\:grid-cols-4 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
   .md\:grid-cols-5 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -933,6 +981,11 @@
       gap: calc(var(--spacing) * 5);
     }
   }
+  .lg\:gap-10 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 10);
+    }
+  }
   .lg\:bg-\[url\(\.\/assets\/imgs\/about\.webp\)\] {
     @media (width >= 64rem) {
       background-image: url(./assets/imgs/about.webp);
@@ -943,9 +996,19 @@
       background-position: center;
     }
   }
+  .lg\:bg-top {
+    @media (width >= 64rem) {
+      background-position: top;
+    }
+  }
   .lg\:p-0 {
     @media (width >= 64rem) {
       padding: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:px-0 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 0);
     }
   }
   .lg\:px-\[2rem\] {
