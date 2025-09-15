@@ -1,6 +1,3 @@
-import Swiper from "swiper";
-import "swiper/css";
-
 const menuBtn = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
 const body = document.body;
