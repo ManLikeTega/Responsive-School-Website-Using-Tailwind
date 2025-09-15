@@ -7,15 +7,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
-    />
-
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="./assets/coustom/coustom.css" />
   </head>
@@ -44,17 +35,15 @@
             <div class="hidden lg:flex space-x-2">
               <a href="./index.html" class="nav_links">Home</a>
 
-              <a href="#" class="nav_links">About Us</a>
+              <a href="./about.html" class="nav_links">About Us</a>
 
               <a href="./academics.html" class="nav_links">Academics</a>
 
               <a href="#" class="nav_links">Admissions</a>
 
-              <a href="#" class="nav_links">News & Events</a>
+              <a href="./gallery.html" class="nav_links">Gallery</a>
 
-              <a href="#" class="nav_links">Gallery</a>
-
-              <a href="#" class="nav_links">Contact Us</a>
+              <a href="./contact.html" class="nav_links">Contact Us</a>
             </div>
 
             <!-- Mobile Hamburger -->
@@ -94,16 +83,345 @@
 
           <a href="#" class="block py-2 hover:text-secondary">Admissions</a>
 
-          <a href="#" class="block py-2 hover:text-secondary">News & Events</a>
+          <a href="./admission.html" class="block py-2 hover:text-secondary"
+            >Gallery</a
+          >
 
-          <a href="#" class="block py-2 hover:text-secondary">Gallery</a>
-
-          <a href="#" class="block py-2 hover:text-secondary">Contact Us</a>
+          <a href="./contact.html" class="block py-2 hover:text-secondary"
+            >Contact Us</a
+          >
         </div>
       </nav>
 
-      <section class="sub_hero"></section>
+      <section class="sub_hero bg-[url(./assets/imgs/gallery.png)] bg-top">
+        <div class="sub_hero-container">
+          <div>
+            <h1 class="sub_hero-heading">
+              Join Bright Future Secondary School
+            </h1>
 
+            <h3 class="sub_hero-sub_heading">
+              A place where knowledge, discipline, and excellence guide every
+              child’s growth.
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section class="my-10 lg:my-[7rem]">
+        <div class="grid gap-5 md:grid-cols-12">
+          <div
+            class="md:col-span-12 grid gap-5 md:grid-cols-12 border-b-1 border-textColorLight pb-10"
+          >
+            <div class="md:col-span-12 lg:col-span-6">
+              <h6 class="section-heading">Why choose us</h6>
+
+              <h2 class="section-sub_heading">
+                Building confident, disciplined, and well-rounded students
+                prepared for a brighter tomorrow.
+              </h2>
+
+              <p>
+                Choosing the right school is one of the most important decisions
+                for your child’s future. At Bright Future Secondary School, we
+                combine strong academics, character development, and a
+                supportive environment to help every student thrive.
+              </p>
+            </div>
+
+            <div class="md:col-span-12 lg:col-span-6 overflow-hidden rounded">
+              <img src="./assets/imgs/school_building.png" alt="" />
+            </div>
+          </div>
+
+          <div class="md:col-span-12 grid grid-cols-12">
+            <div
+              class="col-span-12 md:col-span-6 lg:col-span-4 flex gap-2 py-5 px-0"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-10 w-10 md:h-15 md:w-20"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l6.16-3.422A12.083 12.083 0 0118 20.944H6a12.083 12.083 0 01-.16-10.366L12 14z"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h5 class="font-fontTwo text-xl">Academic Excellence</h5>
+
+                <p>A curriculum designed to challenge and inspire.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-span-12 md:col-span-6 lg:col-span-4 flex gap-2 py-5 px-0"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-10 w-10 md:h-15 md:w-20"
+                >
+                  <path
+                    d="M4 22C4 17.5817 7.58172 14 12 14C16.4183 14 20 17.5817 20 22H18C18 18.6863 15.3137 16 12 16C8.68629 16 6 18.6863 6 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div>
+                <h5 class="font-fontTwo text-xl">Experienced Teachers</h5>
+
+                <p>Dedicated educators who care about student growth.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-span-12 md:col-span-6 lg:col-span-4 flex gap-2 py-5 px-0"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-10 w-10 md:h-15 md:w-20"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8c-1.657 0-3 .843-3 2s1.343 2 3 2 3-.843 3-2-1.343-2-3-2zm0 4c-2.21 0-4 .895-4 2v2h8v-2c0-1.105-1.79-2-4-2z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 20v-2a6 6 0 1112 0v2"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h5 class="font-fontTwo text-xl">Holistic Development</h5>
+
+                <p>From academics to sports, arts, and leadership skills.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-span-12 md:col-span-6 lg:col-span-4 flex gap-2 py-5 px-0"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-10 w-10 md:h-15 md:w-20"
+                >
+                  <path
+                    d="M5 4.60434V13.7889C5 15.1263 5.6684 16.3752 6.7812 17.1171L12 20.5963L17.2188 17.1171C18.3316 16.3752 19 15.1263 19 13.7889V4.60434L12 3.04879L5 4.60434ZM3.78307 2.82598L12 1L20.2169 2.82598C20.6745 2.92766 21 3.33347 21 3.80217V13.7889C21 15.795 19.9974 17.6684 18.3282 18.7812L12 23L5.6718 18.7812C4.00261 17.6684 3 15.795 3 13.7889V3.80217C3 3.33347 3.32553 2.92766 3.78307 2.82598ZM12 13.5L9.06107 15.0451L9.62236 11.7725L7.24472 9.45492L10.5305 8.97746L12 6L13.4695 8.97746L16.7553 9.45492L14.3776 11.7725L14.9389 15.0451L12 13.5Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div>
+                <h5 class="font-fontTwo text-xl">
+                  Safe & Supportive Environment
+                </h5>
+
+                <p>A community where every student feels valued.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-span-12 md:col-span-6 lg:col-span-4 flex gap-2 py-5 px-0"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-10 w-10 md:h-15 md:w-20"
+                >
+                  <path
+                    d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div>
+                <h5 class="font-fontTwo text-xl">Proven Results</h5>
+
+                <p>A track record of success in academics and beyond.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-span-12 md:col-span-6 lg:col-span-4 flex gap-2 py-5 px-0"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-10 w-10 md:h-15 md:w-20"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h5 class="font-fontTwo text-xl">Global Perspective</h5>
+
+                <p>Preparing students to thrive in an interconnected world</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-extra py-10 lg:py-[7rem]">
+        <div>
+          <div>
+            <h6 class="section-heading">Admission Process</h6>
+
+            <h2 class="section-sub_heading">
+              From application to enrollment — here’s how to get started.
+            </h2>
+          </div>
+
+          <div
+            class="flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid-cols-3"
+          >
+            <div class="card text-left">
+              <div class="flex items-center gap-5 mb-3">
+                <h4
+                  class="bg-third_light w-fit text-primary py-2 px-4 rounded transition-colors duration-300 text-xl font-fontTwo"
+                >
+                  1
+                </h4>
+
+                <h5 class="font-fontTwo text-xl">Inquiry</h5>
+              </div>
+
+              <p>
+                Reach out to our admissions office to request information and
+                schedule a tour.
+              </p>
+            </div>
+
+            <div class="card text-left">
+              <div class="flex items-center gap-5 mb-3">
+                <h4
+                  class="bg-third_light w-fit text-primary py-2 px-4 rounded transition-colors duration-300 text-xl font-fontTwo"
+                >
+                  2
+                </h4>
+
+                <h5 class="font-fontTwo text-xl">Application</h5>
+              </div>
+
+              <p>
+                Purchase application form available at the school office,
+                Complete the form and submit required documents.
+              </p>
+            </div>
+
+            <div class="card text-left">
+              <div class="flex items-center gap-5 mb-3">
+                <h4
+                  class="bg-third_light w-fit text-primary py-2 px-4 rounded transition-colors duration-300 text-xl font-fontTwo"
+                >
+                  3
+                </h4>
+
+                <h5 class="font-fontTwo text-xl">Assessment</h5>
+              </div>
+
+              <p>
+                Students may be required to complete an entrance exam or
+                interview.
+              </p>
+            </div>
+
+            <div class="card text-left">
+              <div class="flex items-center gap-5 mb-3">
+                <h4
+                  class="bg-third_light w-fit text-primary py-2 px-4 rounded transition-colors duration-300 text-xl font-fontTwo"
+                >
+                  4
+                </h4>
+
+                <h5 class="font-fontTwo text-xl">Decision</h5>
+              </div>
+
+              <p>
+                Admissions decisions are communicated via email within two weeks
+                of application completion.
+              </p>
+            </div>
+
+            <div class="card text-left">
+              <div class="flex items-center gap-5 mb-3">
+                <h4
+                  class="bg-third_light w-fit text-primary py-2 px-4 rounded transition-colors duration-300 text-xl font-fontTwo"
+                >
+                  5
+                </h4>
+
+                <h5 class="font-fontTwo text-xl">Enrollment</h5>
+              </div>
+
+              <p>
+                Accepted students will receive enrollment instructions and
+                deadlines.
+              </p>
+            </div>
+
+            <div class="card text-left">
+              <div class="flex items-center gap-5 mb-3">
+                <h4
+                  class="bg-third_light w-fit text-primary py-2 px-4 rounded transition-colors duration-300 text-xl font-fontTwo"
+                >
+                  6
+                </h4>
+
+                <h5 class="font-fontTwo text-xl">Orientation</h5>
+              </div>
+
+              <p>
+                New students and families are invited to attend orientation
+                sessions before the school year begins.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
       <footer class="py-10 lg:py-[7rem] bg-primary text-textColorLight">
         <div
           class="mb-10 grid grid-cols-2 gap-10 md:grid-cols-6 lg:grid-cols-10"
@@ -428,17 +746,9 @@
 
         <hr />
 
-        <div
-          class="text-center mt-5 text-sm text-gray-400 flex flex-col md:flex-row justify-between gap-5"
-        >
-          <span class="text-center"
-            >© 2025 Bright Future Secondary School. All Rights Reserved.</span
-          >
-
-          <span class="text-center"
-            >Term of services Privacy Policy Cookie Policy</span
-          >
-        </div>
+        <h4 class="text-center mt-5 text-sm text-gray-400">
+          © 2025 Bright Future Secondary School. All Rights Reserved.
+        </h4>
       </footer>
     </main>
 
