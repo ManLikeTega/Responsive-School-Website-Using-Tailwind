@@ -41,6 +41,10 @@
     @apply lg:px-2 lg:pb-1 font-fontTwo relative hover:text-secondary transition lg:before:absolute lg:before:bottom-0 lg:before:start-0 lg:before:h-[2px] lg:before:w-0 lg:before:bg-secondary lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out hover:lg:before:w-full;
   }
 
+  .nav_links.active {
+    @apply before:w-full;
+  }
+
   .btn_full {
     @apply relative capitalize font-fontTwo tracking-wider text-primary text-xs md:text-sm font-light px-[1.5rem] py-[.5rem] transition-[2s] border-1 border-secondary rounded z-2 hover:text-secondary;
   }
