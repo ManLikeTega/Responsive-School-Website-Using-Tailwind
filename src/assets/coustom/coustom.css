@@ -55,3 +55,7 @@
   border-radius: 50%;
   background-color: var(--color-primary);
 }
+
+.nav_links.active::before {
+  width: 100%;
+}
